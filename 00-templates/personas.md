@@ -21,7 +21,7 @@
 - Takes 30–50 repair calls per day
 - Logs details in Salesforce
 - Escalates high-priority cases manually
----
+
 
 ## 2. Housing Officer (James)
 **Role:** Safeguards vulnerable tenants; manages tenancy issues  
@@ -45,7 +45,7 @@
 - Responds to safeguarding alerts
 - Updates tenant records after home visits
 
----
+
 
 ## 3. Complaints Officer (Aisha)
 **Role:** Manages complaint lifecycle from receipt to resolution  
@@ -69,7 +69,7 @@
 - Logs in Salesforce, assigns to investigators
 - Sends acknowledgment emails manually
 
----
+
 
 ## 4. Ops Manager (David)
 **Role:** Oversees repairs and complaints teams; owns KPIs  
