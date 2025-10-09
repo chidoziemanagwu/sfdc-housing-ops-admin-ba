@@ -1,0 +1,13 @@
+﻿Object,Field Label,API Name,Data Type,Required?,Unique?,Default,Purpose,Security Notes
+HOA_Property__c,Property Name,Name,Text,Yes,No,—,Main identifier for the property record,—
+HOA_Property__c,Property ID,Property_ID__c,Text (20),Yes,Yes,—,External ID for upserts; unique property identifier,—
+HOA_Property__c,Address,Address__c,Text Area (255),Yes,No,—,Full property address,—
+HOA_Property__c,Postcode,Postcode__c,Text (10),Yes,No,—,Postal code for location and reporting,—
+HOA_Property__c,Tenure Type,Tenure_Type__c,Picklist,No,No,—,"Type of tenancy (e.g., Social Rent, Leasehold)",—
+HOA_Property__c,Active,Active__c,Checkbox,No,No,Checked,Indicates if property is currently active,—
+HOA_Property__c,Bedrooms,Bedrooms__c,"Number (2,0)",No,No,—,Number of bedrooms in the property,—
+HOA_Property__c,Property Type,Property_Type__c,Picklist,No,No,—,"Categorizes property (Flat, House, etc.)",—
+HOA_Property__c,Account,Account__c,Lookup(Account),No,No,—,Links property to managing household (Account),—
+Case,Property,HOA_Property__c,Lookup(HOA_Property__c),No,No,—,Links repair/complaint case to a specific property,—
+Contact,Vulnerability Flag,Vulnerability_Flag__c,Checkbox,No,No,Unchecked,Flags if contact is vulnerable,Restrict via FLS (Day 2)
+Contact,Vulnerability Reason,Vulnerability_Reason__c,Text Area (Long),No,No,—,"Details about vulnerability (e.g., mobility, mental health)",Restrict via FLS (Day 2)
